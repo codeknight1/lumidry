@@ -6,12 +6,12 @@ const services = [
   {
     title: "Wash & Fold",
     description: "Gentle care for everyday clothes",
-    image: "https://i.pinimg.com/originals/9e/94/40/9e9440f517426bd1e3c740ad82bba55a.jpg",
+    image: "https://res.cloudinary.com/dqfaw22sc/image/upload/v1767822909/15_Handy_Uses_for_Dryer_Sheets_Around_the_House_v73wde.jpg",
   },
   {
     title: "Dry Cleaning",
     description: "Premium treatment for delicate fabrics",
-    image: "/placeholder.jpg",
+    image: "https://res.cloudinary.com/dqfaw22sc/image/upload/v1767822909/What_Is_Dry_Cleaning__c9uhqx.jpg",
   },
   {
     title: "Ironing",
