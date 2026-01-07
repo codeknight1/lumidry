@@ -1,9 +1,24 @@
 "use client"
 
+import Image from "next/image"
+
 export default function Hero() {
   return (
-    <section id="home" className="min-h-screen bg-[#e8f3d0] flex items-center justify-center pt-20 px-4">
-      <div className="max-w-6xl mx-auto w-full">
+    <section id="home" className="relative min-h-screen flex items-center justify-center pt-20 px-4 overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="https://res.cloudinary.com/dqfaw22sc/image/upload/v1767821899/Dry_Cleaning_Service_in_Phoenix___Sparklean_Laundry_Phoenix_Reliable_Fast_Affordable_1_a9eecc.jpg"
+          alt="Laundry Service Background"
+          fill
+          className="object-cover"
+          priority
+        />
+        {/* Dark overlay for better text readability */}
+        <div className="absolute inset-0 bg-black/60"></div>
+      </div>
+
+      <div className="relative z-10 max-w-6xl mx-auto w-full">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div>
@@ -31,24 +46,6 @@ export default function Hero() {
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-[#a6ce3a] rounded-full opacity-30 blur-3xl"></div>
             </div>
 
-            {/* Visual placeholder */}
-            <div className="relative z-10 w-full h-full flex items-center justify-center">
-              <svg
-                className="w-full h-full max-w-sm opacity-80"
-                viewBox="0 0 200 200"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <defs>
-                  <linearGradient id="clothGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stopColor="#1859a9" stopOpacity="1" />
-                    <stop offset="100%" stopColor="#1e85c6" stopOpacity="1" />
-                  </linearGradient>
-                </defs>
-                <path d="M 50 30 Q 100 20 150 40 L 140 100 Q 100 120 60 100 Z" fill="url(#clothGrad)" opacity="0.8" />
-                <path d="M 40 90 Q 60 150 100 170 Q 140 150 160 90" fill="#a6ce3a" opacity="0.6" />
-                <circle cx="100" cy="80" r="25" fill="#93b4d9" opacity="0.5" />
-              </svg>
-            </div>
           </div>
         </div>
       </div>
