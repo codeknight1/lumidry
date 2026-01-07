@@ -13,15 +13,13 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/lumidry.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/lumidry.png",
-        media: "(prefers-color-scheme: dark)",
+        url: "/Lumidry.png",
+        type: "image/png",
+        sizes: "any",
       },
     ],
-    apple: "/lumidry.png",
+    shortcut: "/Lumidry.png",
+    apple: "/Lumidry.png",
   },
 }
 
