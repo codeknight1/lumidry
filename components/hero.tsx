@@ -21,6 +21,15 @@ export default function Hero() {
       <div className="relative z-10 max-w-6xl mx-auto w-full">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
+            <div className="mb-6">
+              <Image
+                src="https://res.cloudinary.com/dqfaw22sc/image/upload/v1767821440/Lumidry_qowvlu.png"
+                alt="Lumidry Logo"
+                width={200}
+                height={80}
+                className="h-16 md:h-20 w-auto drop-shadow-lg"
+              />
+            </div>
             <div>
               <h1 className="text-5xl md:text-6xl font-extrabold text-white leading-tight text-balance drop-shadow-lg">
                 Fresh. Clean. Effortless Laundry.
@@ -38,13 +47,13 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="relative h-96 md:h-[500px] flex items-center justify-center">
-            <div className="relative w-full h-full rounded-3xl overflow-hidden shadow-2xl">
+          <div className="relative h-64 md:h-80 flex items-center justify-center">
+            <div className="relative w-4/5 h-full rounded-3xl overflow-hidden shadow-2xl">
               <Image
                 src="https://res.cloudinary.com/dqfaw22sc/image/upload/v1767822909/Small_Laundry_Rooms_zmsyiq.jpg"
                 alt="Laundry Room"
                 fill
-                className="object-cover rounded-3xl"
+                className="object-cover rounded-3xl grayscale opacity-60"
               />
             </div>
           </div>

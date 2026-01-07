@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from "lucide-react"
 
 export default function Footer() {
@@ -9,7 +10,13 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div>
-            <h3 className="text-2xl font-bold mb-4">Lumidry</h3>
+            <Image
+              src="https://res.cloudinary.com/dqfaw22sc/image/upload/v1767821440/Lumidry_qowvlu.png"
+              alt="Lumidry Logo"
+              width={150}
+              height={60}
+              className="h-12 w-auto mb-4 drop-shadow-lg"
+            />
             <p className="text-white/70">Premium laundry & dry-cleaning services you can trust.</p>
           </div>
 
