@@ -22,17 +22,17 @@ export default function Hero() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div>
-              <h1 className="text-5xl md:text-6xl font-bold text-[#1859a9] leading-tight text-balance">
+              <h1 className="text-5xl md:text-6xl font-extrabold text-white leading-tight text-balance drop-shadow-lg">
                 Fresh. Clean. Effortless Laundry.
               </h1>
-              <p className="text-xl text-[#1859a9]/70 mt-4">Premium laundry & dry-cleaning services you can trust.</p>
+              <p className="text-xl text-white/90 mt-4 font-medium drop-shadow-md">Premium laundry & dry-cleaning services you can trust.</p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="bg-[#a6ce3a] hover:bg-[#bada6b] text-white font-semibold px-8 py-3 rounded-xl transition-smooth shadow-soft hover:shadow-soft-lg">
                 Book a Pickup
               </button>
-              <button className="border-2 border-[#1859a9] text-[#1859a9] hover:bg-[#1859a9] hover:text-white font-semibold px-8 py-3 rounded-xl transition-smooth">
+              <button className="border-2 border-white text-white hover:bg-white hover:text-[#1859a9] font-semibold px-8 py-3 rounded-xl transition-smooth shadow-lg">
                 How It Works
               </button>
             </div>
