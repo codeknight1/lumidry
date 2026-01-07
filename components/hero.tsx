@@ -38,14 +38,15 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="relative h-96 md:h-full flex items-center justify-center">
-            {/* Subtle abstract shapes inspired by fabric folds */}
-            <div className="absolute inset-0 overflow-hidden rounded-3xl">
-              <div className="absolute top-10 right-10 w-64 h-64 bg-[#d1e79b] rounded-full opacity-60 blur-3xl"></div>
-              <div className="absolute bottom-10 left-10 w-96 h-96 bg-[#93b4d9] rounded-full opacity-40 blur-3xl"></div>
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-[#a6ce3a] rounded-full opacity-30 blur-3xl"></div>
+          <div className="relative h-96 md:h-[500px] flex items-center justify-center">
+            <div className="relative w-full h-full rounded-3xl overflow-hidden shadow-2xl">
+              <Image
+                src="https://res.cloudinary.com/dqfaw22sc/image/upload/v1767822909/Small_Laundry_Rooms_zmsyiq.jpg"
+                alt="Laundry Room"
+                fill
+                className="object-cover rounded-3xl"
+              />
             </div>
-
           </div>
         </div>
       </div>

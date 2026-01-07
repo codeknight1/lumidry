@@ -16,17 +16,17 @@ const services = [
   {
     title: "Ironing",
     description: "Crisp, professional finish",
-    image: "/placeholder.jpg",
+    image: "https://res.cloudinary.com/dqfaw22sc/image/upload/v1767822909/Washing_Iron_services_In_Gurgaon_clwoag.jpg",
   },
   {
     title: "Stain Removal",
     description: "Expert removal of tough stains",
-    image: "/placeholder.jpg",
+    image: "https://res.cloudinary.com/dqfaw22sc/image/upload/v1767822909/Trucos_y_bricolaje_uimc9c.jpg",
   },
   {
     title: "Express Service",
     description: "24-hour rush turnaround available",
-    image: "/placeholder.jpg",
+    image: "https://res.cloudinary.com/dqfaw22sc/image/upload/v1767823554/Places_in_Newry_No__2_Registrar_s_District_kak6v4.jpg",
   },
 ]
 
