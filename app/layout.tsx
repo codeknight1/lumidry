@@ -10,19 +10,18 @@ export const metadata: Metadata = {
   title: "Lumidry - Premium Laundry & Dry Cleaning Services",
   description:
     "Fresh. Clean. Effortless Laundry. Premium laundry and dry-cleaning services you can trust. Fast, affordable, and eco-friendly.",
-  generator: "v0.app",
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/lumidry.png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/lumidry.png",
         media: "(prefers-color-scheme: dark)",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/lumidry.png",
   },
 }
 
